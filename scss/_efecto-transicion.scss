@@ -1,0 +1,64 @@
+/* Efectos - transicion */
+
+/* Personalizado */
+.img-personalizado img {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+}
+
+.img-personalizado img:hover {
+    transform: scale(1.1);
+    border: solid white 5px;
+    border-radius: 1rem;
+}
+
+/* Nav */
+
+.navegador a:hover {
+    background-color: gold;
+    border-radius: .5rem;
+}
+
+
+.logo {
+    animation-name: movimiento-logo;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-delay: .0s;
+}
+
+@keyframes movimiento-logo {
+    0% {
+        transform: translate(180px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+
+}
+
+h2 {
+    animation-name: movimiento-h2;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-delay: .0s;
+}
+
+@keyframes movimiento-h2 {
+    0% {
+        transform: translate(-180px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+
+}
