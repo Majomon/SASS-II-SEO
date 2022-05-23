@@ -18,6 +18,22 @@
   font-family: 'Oleo Script Swash Caps', cursive !important;
   font-size: 40px; }
 
+/* Mapa */
+.color-nav-home, .link-color-home:hover {
+  background-color: gold; }
+
+.color-nav-productos, .link-color-productos:hover {
+  background-color: #ca9013; }
+
+.color-nav-personalizados, .link-color-personalizado:hover {
+  background-color: #5a9db8; }
+
+.color-nav-preguntas, .link-color-preguntas:hover {
+  background-color: #ad19bb; }
+
+.color-nav-contacto, .link-color-contacto:hover {
+  background-color: #b94242; }
+
 nav {
   background-color: #5dc450; }
   nav .navegador a {
@@ -128,9 +144,25 @@ footer {
   border-radius: 1rem; }
 
 /* Nav */
-.navegador a:hover {
-  background-color: gold;
-  border-radius: .5rem; }
+.link-color-home:hover {
+  border-radius: .5rem;
+  box-shadow: 1px 1px 1px 1px black; }
+
+.link-color-productos:hover {
+  border-radius: .5rem;
+  box-shadow: 1px 1px 1px 1px black; }
+
+.link-color-personalizado:hover {
+  border-radius: .5rem;
+  box-shadow: 1px 1px 1px 1px black; }
+
+.link-color-preguntas:hover {
+  border-radius: .5rem;
+  box-shadow: 1px 1px 1px 1px black; }
+
+.link-color-contacto:hover {
+  border-radius: .5rem;
+  box-shadow: 1px 1px 1px 1px black; }
 
 .logo {
   animation-name: movimiento-logo;

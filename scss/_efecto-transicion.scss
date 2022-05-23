@@ -15,11 +15,35 @@
 
 /* Nav */
 
-.navegador a:hover {
-    background-color: gold;
+.link-color-home:hover {
+    @extend .color-nav-home;
     border-radius: .5rem;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
+.link-color-productos:hover {
+    @extend .color-nav-productos;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.link-color-personalizado:hover {
+    @extend .color-nav-personalizados;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.link-color-preguntas:hover {
+    @extend .color-nav-preguntas;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.link-color-contacto:hover {
+    @extend .color-nav-contacto;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 1px 1px black;
+}
 
 .logo {
     animation-name: movimiento-logo;
