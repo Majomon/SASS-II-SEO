@@ -1,19 +1,21 @@
 @charset "UTF-8";
-/* Espacios */
-/* Colores */
-/* Operaciones, mapas, extend, mixins */
 /* Estilos generales */
 /* Header */
 * {
   margin: 0;
   padding: 0; }
 
-h1 {
+/* Espacios */
+/* Colores */
+/* Operaciones, mapas, extend, mixins */
+/* Mixins */
+/* Extend */
+.estilo-h1, h1 {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   font-size: 20px; }
 
-.h2-main {
-  font-family: 'Oleo Script Swash Caps', cursive;
+.estilo-h2, .h2-main {
+  font-family: 'Oleo Script Swash Caps', cursive !important;
   font-size: 40px; }
 
 nav {
@@ -32,7 +34,9 @@ nav {
     height: 150px; }
 
 .main-index {
-  padding: 2rem; }
+  padding: 1rem;
+  margin: 0;
+  text-align: left; }
 
 /* Footer */
 footer {
@@ -63,7 +67,9 @@ footer {
 /* producto.html */
 .main-producto {
   background-color: #ebf5f5;
-  padding: 1rem 0rem; }
+  padding: 1rem;
+  margin: 0;
+  text-align: left; }
 
 /* personalizado.html */
 .main-personalizado {
@@ -76,7 +82,10 @@ footer {
 
 /* preguntas-frecuentes.html */
 .main-consultas {
-  background-color: #ebf5f5; }
+  background-color: #ebf5f5;
+  padding: 1rem;
+  margin: 0;
+  text-align: left; }
   .main-consultas h2 {
     padding: 1rem 0rem; }
 

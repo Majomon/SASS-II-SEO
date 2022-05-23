@@ -1,7 +1,3 @@
-@import "variables";
-@import "cosas-de-sass-2";
-
-
 /* Estilos generales */
 /* Header */
 *{
@@ -9,14 +5,15 @@
     padding: 0;
 }
 
+@import "variables";
+@import "cosas-de-sass-2";
+
 h1 {
-    font-family: 'Oleo Script Swash Caps', cursive !important;
-    font-size: 20px;
+    @extend.estilo-h1;
 }
 
 .h2-main {
-    font-family: 'Oleo Script Swash Caps', cursive;
-    font-size: 40px;
+    @extend.estilo-h2;
 }
 
 nav {
@@ -43,7 +40,7 @@ nav {
 
 
 .main-index {
-    padding: $spa2;
+    @include espacios-align($spa1,0,left)
 }
 
 

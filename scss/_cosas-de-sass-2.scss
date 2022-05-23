@@ -1,1 +1,19 @@
 /* Operaciones, mapas, extend, mixins */
+
+/* Mixins */
+@mixin espacios-align ($padd,$marg,$centrado){
+    padding: $padd;
+    margin: $marg;
+    text-align: $centrado;
+}
+
+/* Extend */
+.estilo-h1{
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+    font-size: 20px;
+}
+
+.estilo-h2{
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+    font-size: 40px;
+}

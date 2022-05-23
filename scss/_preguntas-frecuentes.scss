@@ -2,6 +2,8 @@
 
 .main-consultas{
     background-color: $c-fondo;
+    @include espacios-align($spa1,0,left);
+    
     h2{
         padding: $spa1 0rem;
     }
